@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/date"
+        android:text="1"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:textSize = "16sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/item"
+        android:text="Preston North End"
+        android:layout_width="0dp"
+        android:layout_weight=".30"
+        android:textSize = "16sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/money"
+        android:text="18"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:textSize = "14sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/size"
+        android:text="4"
+        android:layout_width="0dp"
+        android:layout_weight=".15"
+        android:textSize = "14sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/save"
+        android:text="0"
+        android:layout_width="0dp"
+        android:layout_weight=".15"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
